@@ -7,6 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "NKitTableViewCell.h"
+#import "NKitUITableView+Ext.h"
+#import "NKitUITableViewController+Ext.h"
 
 @interface NKit : NSObject
 

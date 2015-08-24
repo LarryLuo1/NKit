@@ -6,10 +6,30 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		7FA3DBE71B8B42110097D1D1 /* universial-lib */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7FA3DBEA1B8B42110097D1D1 /* Build configuration list for PBXAggregateTarget "universial-lib" */;
+			buildPhases = (
+				7FA3DBEB1B8B42180097D1D1 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = "universial-lib";
+			productName = "universial-lib";
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		7F5BE1231B8ABDA6008AE360 /* NKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7F5BE1221B8ABDA6008AE360 /* NKit.h */; };
 		7F5BE1251B8ABDA6008AE360 /* NKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5BE1241B8ABDA6008AE360 /* NKit.m */; };
 		7F5BE12B1B8ABDA6008AE360 /* libNKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F5BE11F1B8ABDA6008AE360 /* libNKit.a */; };
+		7F5BE13D1B8ABF3A008AE360 /* NKitTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5BE13C1B8ABF3A008AE360 /* NKitTableViewCell.m */; };
+		7F5BE1401B8AC454008AE360 /* NKitUITableView+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5BE13F1B8AC454008AE360 /* NKitUITableView+Ext.m */; };
+		7FA3DBDC1B8B3C2D0097D1D1 /* NKitUITableViewController+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA3DBDB1B8B3C2D0097D1D1 /* NKitUITableViewController+Ext.m */; };
+		7FA3DBEC1B8B43B00097D1D1 /* NKitTableViewCell.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7F5BE13B1B8ABF3A008AE360 /* NKitTableViewCell.h */; };
+		7FA3DBED1B8B43B40097D1D1 /* NKitUITableView+Ext.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7F5BE13E1B8AC454008AE360 /* NKitUITableView+Ext.h */; };
+		7FA3DBEE1B8B43B70097D1D1 /* NKitUITableViewController+Ext.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7FA3DBDA1B8B3C2D0097D1D1 /* NKitUITableViewController+Ext.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +49,9 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				7FA3DBEE1B8B43B70097D1D1 /* NKitUITableViewController+Ext.h in CopyFiles */,
+				7FA3DBED1B8B43B40097D1D1 /* NKitUITableView+Ext.h in CopyFiles */,
+				7FA3DBEC1B8B43B00097D1D1 /* NKitTableViewCell.h in CopyFiles */,
 				7F5BE1231B8ABDA6008AE360 /* NKit.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -41,6 +64,12 @@
 		7F5BE1241B8ABDA6008AE360 /* NKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NKit.m; sourceTree = "<group>"; };
 		7F5BE12A1B8ABDA6008AE360 /* NKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F5BE1301B8ABDA6008AE360 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F5BE13B1B8ABF3A008AE360 /* NKitTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKitTableViewCell.h; sourceTree = "<group>"; };
+		7F5BE13C1B8ABF3A008AE360 /* NKitTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKitTableViewCell.m; sourceTree = "<group>"; };
+		7F5BE13E1B8AC454008AE360 /* NKitUITableView+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NKitUITableView+Ext.h"; sourceTree = "<group>"; };
+		7F5BE13F1B8AC454008AE360 /* NKitUITableView+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NKitUITableView+Ext.m"; sourceTree = "<group>"; };
+		7FA3DBDA1B8B3C2D0097D1D1 /* NKitUITableViewController+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NKitUITableViewController+Ext.h"; sourceTree = "<group>"; };
+		7FA3DBDB1B8B3C2D0097D1D1 /* NKitUITableViewController+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NKitUITableViewController+Ext.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +112,8 @@
 		7F5BE1211B8ABDA6008AE360 /* NKit */ = {
 			isa = PBXGroup;
 			children = (
+				7F5BE13A1B8ABF07008AE360 /* TableView */,
+				7F5BE1391B8ABEBB008AE360 /* Ext */,
 				7F5BE1221B8ABDA6008AE360 /* NKit.h */,
 				7F5BE1241B8ABDA6008AE360 /* NKit.m */,
 			);
@@ -103,6 +134,26 @@
 				7F5BE1301B8ABDA6008AE360 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7F5BE1391B8ABEBB008AE360 /* Ext */ = {
+			isa = PBXGroup;
+			children = (
+				7F5BE13E1B8AC454008AE360 /* NKitUITableView+Ext.h */,
+				7F5BE13F1B8AC454008AE360 /* NKitUITableView+Ext.m */,
+				7FA3DBDA1B8B3C2D0097D1D1 /* NKitUITableViewController+Ext.h */,
+				7FA3DBDB1B8B3C2D0097D1D1 /* NKitUITableViewController+Ext.m */,
+			);
+			name = Ext;
+			sourceTree = "<group>";
+		};
+		7F5BE13A1B8ABF07008AE360 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				7F5BE13B1B8ABF3A008AE360 /* NKitTableViewCell.h */,
+				7F5BE13C1B8ABF3A008AE360 /* NKitTableViewCell.m */,
+			);
+			name = TableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,6 +209,9 @@
 					7F5BE1291B8ABDA6008AE360 = {
 						CreatedOnToolsVersion = 6.4;
 					};
+					7FA3DBE71B8B42110097D1D1 = {
+						CreatedOnToolsVersion = 6.4;
+					};
 				};
 			};
 			buildConfigurationList = 7F5BE11A1B8ABDA6008AE360 /* Build configuration list for PBXProject "NKit" */;
@@ -174,6 +228,7 @@
 			targets = (
 				7F5BE11E1B8ABDA6008AE360 /* NKit */,
 				7F5BE1291B8ABDA6008AE360 /* NKitTests */,
+				7FA3DBE71B8B42110097D1D1 /* universial-lib */,
 			);
 		};
 /* End PBXProject section */
@@ -188,12 +243,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7FA3DBEB1B8B42180097D1D1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "xcodebuild -target NKit ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\n\nxcodebuild -target NKit -configuration ${CONFIGURATION} -sdk iphonesimulator -arch x86_64 i386 BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\n\nlipo -create -output \"${SRCROOT}/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/lib${PROJECT_NAME}.a\"\n\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/include\" \"${SRCROOT}/\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7F5BE11B1B8ABDA6008AE360 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7F5BE1251B8ABDA6008AE360 /* NKit.m in Sources */,
+				7F5BE13D1B8ABF3A008AE360 /* NKitTableViewCell.m in Sources */,
+				7F5BE1401B8AC454008AE360 /* NKitUITableView+Ext.m in Sources */,
+				7FA3DBDC1B8B3C2D0097D1D1 /* NKitUITableViewController+Ext.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +417,20 @@
 			};
 			name = Release;
 		};
+		7FA3DBE81B8B42110097D1D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7FA3DBE91B8B42110097D1D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -362,12 +450,22 @@
 				7F5BE1351B8ABDA6008AE360 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7F5BE1361B8ABDA6008AE360 /* Build configuration list for PBXNativeTarget "NKitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7F5BE1371B8ABDA6008AE360 /* Debug */,
 				7F5BE1381B8ABDA6008AE360 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FA3DBEA1B8B42110097D1D1 /* Build configuration list for PBXAggregateTarget "universial-lib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FA3DBE81B8B42110097D1D1 /* Debug */,
+				7FA3DBE91B8B42110097D1D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
