@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F5BE1231B8ABDA6008AE360 /* NKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7F5BE1221B8ABDA6008AE360 /* NKit.h */; };
+		7F5BE1251B8ABDA6008AE360 /* NKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5BE1241B8ABDA6008AE360 /* NKit.m */; };
+		7F5BE12B1B8ABDA6008AE360 /* libNKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F5BE11F1B8ABDA6008AE360 /* libNKit.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F5BE12C1B8ABDA6008AE360 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F5BE1171B8ABDA6008AE360 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F5BE11E1B8ABDA6008AE360;
+			remoteInfo = NKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7F5BE11D1B8ABDA6008AE360 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				7F5BE1231B8ABDA6008AE360 /* NKit.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7F5BE11F1B8ABDA6008AE360 /* libNKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F5BE1221B8ABDA6008AE360 /* NKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NKit.h; sourceTree = "<group>"; };
+		7F5BE1241B8ABDA6008AE360 /* NKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NKit.m; sourceTree = "<group>"; };
+		7F5BE12A1B8ABDA6008AE360 /* NKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F5BE1301B8ABDA6008AE360 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F5BE11C1B8ABDA6008AE360 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F5BE1271B8ABDA6008AE360 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F5BE12B1B8ABDA6008AE360 /* libNKit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F5BE1161B8ABDA6008AE360 = {
+			isa = PBXGroup;
+			children = (
+				7F5BE1211B8ABDA6008AE360 /* NKit */,
+				7F5BE12E1B8ABDA6008AE360 /* NKitTests */,
+				7F5BE1201B8ABDA6008AE360 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F5BE1201B8ABDA6008AE360 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F5BE11F1B8ABDA6008AE360 /* libNKit.a */,
+				7F5BE12A1B8ABDA6008AE360 /* NKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F5BE1211B8ABDA6008AE360 /* NKit */ = {
+			isa = PBXGroup;
+			children = (
+				7F5BE1221B8ABDA6008AE360 /* NKit.h */,
+				7F5BE1241B8ABDA6008AE360 /* NKit.m */,
+			);
+			path = NKit;
+			sourceTree = "<group>";
+		};
+		7F5BE12E1B8ABDA6008AE360 /* NKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F5BE12F1B8ABDA6008AE360 /* Supporting Files */,
+			);
+			path = NKitTests;
+			sourceTree = "<group>";
+		};
+		7F5BE12F1B8ABDA6008AE360 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F5BE1301B8ABDA6008AE360 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F5BE11E1B8ABDA6008AE360 /* NKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F5BE1331B8ABDA6008AE360 /* Build configuration list for PBXNativeTarget "NKit" */;
+			buildPhases = (
+				7F5BE11B1B8ABDA6008AE360 /* Sources */,
+				7F5BE11C1B8ABDA6008AE360 /* Frameworks */,
+				7F5BE11D1B8ABDA6008AE360 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NKit;
+			productName = NKit;
+			productReference = 7F5BE11F1B8ABDA6008AE360 /* libNKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7F5BE1291B8ABDA6008AE360 /* NKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F5BE1361B8ABDA6008AE360 /* Build configuration list for PBXNativeTarget "NKitTests" */;
+			buildPhases = (
+				7F5BE1261B8ABDA6008AE360 /* Sources */,
+				7F5BE1271B8ABDA6008AE360 /* Frameworks */,
+				7F5BE1281B8ABDA6008AE360 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F5BE12D1B8ABDA6008AE360 /* PBXTargetDependency */,
+			);
+			name = NKitTests;
+			productName = NKitTests;
+			productReference = 7F5BE12A1B8ABDA6008AE360 /* NKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F5BE1171B8ABDA6008AE360 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Jame298;
+				TargetAttributes = {
+					7F5BE11E1B8ABDA6008AE360 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					7F5BE1291B8ABDA6008AE360 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 7F5BE11A1B8ABDA6008AE360 /* Build configuration list for PBXProject "NKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7F5BE1161B8ABDA6008AE360;
+			productRefGroup = 7F5BE1201B8ABDA6008AE360 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F5BE11E1B8ABDA6008AE360 /* NKit */,
+				7F5BE1291B8ABDA6008AE360 /* NKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F5BE1281B8ABDA6008AE360 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F5BE11B1B8ABDA6008AE360 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F5BE1251B8ABDA6008AE360 /* NKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F5BE1261B8ABDA6008AE360 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F5BE12D1B8ABDA6008AE360 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F5BE11E1B8ABDA6008AE360 /* NKit */;
+			targetProxy = 7F5BE12C1B8ABDA6008AE360 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7F5BE1311B8ABDA6008AE360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7F5BE1321B8ABDA6008AE360 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F5BE1341B8ABDA6008AE360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7F5BE1351B8ABDA6008AE360 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7F5BE1371B8ABDA6008AE360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7F5BE1381B8ABDA6008AE360 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F5BE11A1B8ABDA6008AE360 /* Build configuration list for PBXProject "NKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F5BE1311B8ABDA6008AE360 /* Debug */,
+				7F5BE1321B8ABDA6008AE360 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F5BE1331B8ABDA6008AE360 /* Build configuration list for PBXNativeTarget "NKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F5BE1341B8ABDA6008AE360 /* Debug */,
+				7F5BE1351B8ABDA6008AE360 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7F5BE1361B8ABDA6008AE360 /* Build configuration list for PBXNativeTarget "NKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F5BE1371B8ABDA6008AE360 /* Debug */,
+				7F5BE1381B8ABDA6008AE360 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F5BE1171B8ABDA6008AE360 /* Project object */;
+}
