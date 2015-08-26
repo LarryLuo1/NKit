@@ -34,6 +34,8 @@
 		7FA3DC051B8D93490097D1D1 /* UITableViewController+Ext.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7FA3DBFE1B8D93020097D1D1 /* UITableViewController+Ext.h */; };
 		7FA3DC0B1B8DD2F00097D1D1 /* UIColor+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA3DC0A1B8DD2F00097D1D1 /* UIColor+Ext.m */; };
 		7FA3DC0C1B8DD87C0097D1D1 /* UIColor+Ext.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7FA3DC091B8DD2F00097D1D1 /* UIColor+Ext.h */; };
+		7FA3DC111B8DDC5A0097D1D1 /* UIView+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA3DC101B8DDC5A0097D1D1 /* UIView+Ext.m */; };
+		7FA3DC121B8DDD860097D1D1 /* UIView+Ext.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7FA3DC0F1B8DDC5A0097D1D1 /* UIView+Ext.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,7 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				7FA3DC121B8DDD860097D1D1 /* UIView+Ext.h in CopyFiles */,
 				7FA3DC0C1B8DD87C0097D1D1 /* UIColor+Ext.h in CopyFiles */,
 				7FA3DC051B8D93490097D1D1 /* UITableViewController+Ext.h in CopyFiles */,
 				7FA3DC041B8D93460097D1D1 /* UITableView+Ext.h in CopyFiles */,
@@ -80,6 +83,8 @@
 		7FA3DBFF1B8D93020097D1D1 /* UITableViewController+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITableViewController+Ext.m"; path = "NKit/UITableViewController+Ext.m"; sourceTree = "<group>"; };
 		7FA3DC091B8DD2F00097D1D1 /* UIColor+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Ext.h"; path = "NKit/UIColor+Ext.h"; sourceTree = "<group>"; };
 		7FA3DC0A1B8DD2F00097D1D1 /* UIColor+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Ext.m"; path = "NKit/UIColor+Ext.m"; sourceTree = "<group>"; };
+		7FA3DC0F1B8DDC5A0097D1D1 /* UIView+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Ext.h"; path = "NKit/UIView+Ext.h"; sourceTree = "<group>"; };
+		7FA3DC101B8DDC5A0097D1D1 /* UIView+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Ext.m"; path = "NKit/UIView+Ext.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +162,8 @@
 				7FA3DBFF1B8D93020097D1D1 /* UITableViewController+Ext.m */,
 				7FA3DC091B8DD2F00097D1D1 /* UIColor+Ext.h */,
 				7FA3DC0A1B8DD2F00097D1D1 /* UIColor+Ext.m */,
+				7FA3DC0F1B8DDC5A0097D1D1 /* UIView+Ext.h */,
+				7FA3DC101B8DDC5A0097D1D1 /* UIView+Ext.m */,
 			);
 			name = Ext;
 			sourceTree = "<group>";
@@ -282,6 +289,7 @@
 				7FA3DC0B1B8DD2F00097D1D1 /* UIColor+Ext.m in Sources */,
 				7FA3DC021B8D93020097D1D1 /* UITableViewController+Ext.m in Sources */,
 				7F5BE13D1B8ABF3A008AE360 /* NKitTableViewCell.m in Sources */,
+				7FA3DC111B8DDC5A0097D1D1 /* UIView+Ext.m in Sources */,
 				7FA3DC011B8D93020097D1D1 /* UITableView+Ext.m in Sources */,
 				7FA3DC001B8D93020097D1D1 /* UIImage+Ext.m in Sources */,
 			);
