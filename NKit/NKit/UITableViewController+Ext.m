@@ -6,7 +6,7 @@
 //  Copyright (c) 2015年 Jame298. All rights reserved.
 //
 
-#import "NKitUITableViewController+Ext.h"
+#import "UITableViewController+Ext.h"
 
 @implementation UITableViewController (Ext)
 

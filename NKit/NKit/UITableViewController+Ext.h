@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "NKitUITableView+Ext.h"
+#import "UITableView+Ext.h"
 
 @interface UITableViewController (Ext) <NKitUITableViewDelegate>
 - (UITableViewCell *)nkit_dequeueReusableCellFactory:(NSString *)reuseIdentifer;
