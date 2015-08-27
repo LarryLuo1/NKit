@@ -11,6 +11,8 @@
 
 @interface UIView (Ext)
 
-+ (instancetype)fullScreen;
++ (instancetype)nkit_withFull;
+
++ (instancetype)nkit_withZero;
 
 @end

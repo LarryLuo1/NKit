@@ -10,8 +10,14 @@
 
 @implementation UIView (Ext)
 
-+ (instancetype)fullScreen {
++ (instancetype)nkit_withFull {
     
     return [[self alloc] initWithFrame:[UIScreen mainScreen].bounds];
 }
+
++ (instancetype)nkit_withZero {
+    
+    return [[self alloc] initWithFrame:CGRectZero];
+}
+
 @end
