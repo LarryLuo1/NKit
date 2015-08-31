@@ -13,6 +13,10 @@
 
 + (instancetype)nkit_withFull;
 
-+ (instancetype)nkit_withZero;
+- (instancetype)initWithNKitFrame:(CGRect)frame;
+
+- (instancetype)initWithNKitCoder:(NSCoder *)coder;
+
+- (void)nkit_configure;
 
 @end

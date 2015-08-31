@@ -15,9 +15,25 @@
     return [[self alloc] initWithFrame:[UIScreen mainScreen].bounds];
 }
 
-+ (instancetype)nkit_withZero {
+- (void)nkit_configure {}
+
+- (instancetype)initWithNKitFrame:(CGRect)frame
+{
+    self = [self initWithFrame:frame];
     
-    return [[self alloc] initWithFrame:CGRectZero];
+    if (self) {
+        [self nkit_configure];
+    }
+    return self;
+}
+
+- (instancetype)initWithNKitCoder:(NSCoder *)coder
+{
+    self = [self initWithCoder:coder];
+    if (self) {
+        [self nkit_configure];
+    }
+    return self;
 }
 
 @end

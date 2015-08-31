@@ -7,11 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NKit/UIView+Ext.h"
 
 @interface NKitTableViewCell : UITableViewCell
 
 @property(nonatomic) CGPoint accessoryPoint;
-
-- (void)configure;
 
 @end
