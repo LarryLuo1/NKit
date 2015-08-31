@@ -20,6 +20,10 @@
     return self;
 }
 
+- (void) nkit_configure {
+    self.accessoryPoint = CGPointZero;
+}
+
 - (void)layoutSubviews {
     [super layoutSubviews];
     

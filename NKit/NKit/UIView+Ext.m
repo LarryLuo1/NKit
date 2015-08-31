@@ -10,11 +10,6 @@
 
 @implementation UIView (Ext)
 
-+ (instancetype)nkit_withFull {
-    
-    return [[self alloc] initWithFrame:[UIScreen mainScreen].bounds];
-}
-
 - (void)nkit_configure {}
 
 - (instancetype)initWithNKitFrame:(CGRect)frame

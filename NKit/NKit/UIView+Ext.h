@@ -11,8 +11,6 @@
 
 @interface UIView (Ext)
 
-+ (instancetype)nkit_withFull;
-
 - (instancetype)initWithNKitFrame:(CGRect)frame;
 
 - (instancetype)initWithNKitCoder:(NSCoder *)coder;

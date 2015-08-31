@@ -25,6 +25,8 @@
 		7F5BE1251B8ABDA6008AE360 /* NKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5BE1241B8ABDA6008AE360 /* NKit.m */; };
 		7F5BE12B1B8ABDA6008AE360 /* libNKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F5BE11F1B8ABDA6008AE360 /* libNKit.a */; };
 		7F5BE13D1B8ABF3A008AE360 /* NKitTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5BE13C1B8ABF3A008AE360 /* NKitTableViewCell.m */; };
+		7F62E8941B94360A0009391D /* NKitTableViewFixedImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F62E8931B94360A0009391D /* NKitTableViewFixedImageCell.m */; };
+		7F62E8951B943CAC0009391D /* NKitTableViewFixedImageCell.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7F62E8921B94360A0009391D /* NKitTableViewFixedImageCell.h */; };
 		7FA3DBEC1B8B43B00097D1D1 /* NKitTableViewCell.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7F5BE13B1B8ABF3A008AE360 /* NKitTableViewCell.h */; };
 		7FA3DC001B8D93020097D1D1 /* UIImage+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA3DBFB1B8D93020097D1D1 /* UIImage+Ext.m */; };
 		7FA3DC011B8D93020097D1D1 /* UITableView+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA3DBFD1B8D93020097D1D1 /* UITableView+Ext.m */; };
@@ -55,6 +57,7 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				7F62E8951B943CAC0009391D /* NKitTableViewFixedImageCell.h in CopyFiles */,
 				7FA3DC121B8DDD860097D1D1 /* UIView+Ext.h in CopyFiles */,
 				7FA3DC0C1B8DD87C0097D1D1 /* UIColor+Ext.h in CopyFiles */,
 				7FA3DC051B8D93490097D1D1 /* UITableViewController+Ext.h in CopyFiles */,
@@ -75,6 +78,8 @@
 		7F5BE1301B8ABDA6008AE360 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F5BE13B1B8ABF3A008AE360 /* NKitTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKitTableViewCell.h; sourceTree = "<group>"; };
 		7F5BE13C1B8ABF3A008AE360 /* NKitTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKitTableViewCell.m; sourceTree = "<group>"; };
+		7F62E8921B94360A0009391D /* NKitTableViewFixedImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKitTableViewFixedImageCell.h; sourceTree = "<group>"; };
+		7F62E8931B94360A0009391D /* NKitTableViewFixedImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKitTableViewFixedImageCell.m; sourceTree = "<group>"; };
 		7FA3DBFA1B8D93020097D1D1 /* UIImage+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Ext.h"; path = "NKit/UIImage+Ext.h"; sourceTree = "<group>"; };
 		7FA3DBFB1B8D93020097D1D1 /* UIImage+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Ext.m"; path = "NKit/UIImage+Ext.m"; sourceTree = "<group>"; };
 		7FA3DBFC1B8D93020097D1D1 /* UITableView+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITableView+Ext.h"; path = "NKit/UITableView+Ext.h"; sourceTree = "<group>"; };
@@ -173,6 +178,8 @@
 			children = (
 				7F5BE13B1B8ABF3A008AE360 /* NKitTableViewCell.h */,
 				7F5BE13C1B8ABF3A008AE360 /* NKitTableViewCell.m */,
+				7F62E8921B94360A0009391D /* NKitTableViewFixedImageCell.h */,
+				7F62E8931B94360A0009391D /* NKitTableViewFixedImageCell.m */,
 			);
 			name = TableView;
 			sourceTree = "<group>";
@@ -289,6 +296,7 @@
 				7FA3DC0B1B8DD2F00097D1D1 /* UIColor+Ext.m in Sources */,
 				7FA3DC021B8D93020097D1D1 /* UITableViewController+Ext.m in Sources */,
 				7F5BE13D1B8ABF3A008AE360 /* NKitTableViewCell.m in Sources */,
+				7F62E8941B94360A0009391D /* NKitTableViewFixedImageCell.m in Sources */,
 				7FA3DC111B8DDC5A0097D1D1 /* UIView+Ext.m in Sources */,
 				7FA3DC011B8D93020097D1D1 /* UITableView+Ext.m in Sources */,
 				7FA3DC001B8D93020097D1D1 /* UIImage+Ext.m in Sources */,
